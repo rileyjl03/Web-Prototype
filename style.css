@@ -1,0 +1,80 @@
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+html {
+    scroll-behavior: smooth;
+}
+
+
+section {
+    display: block;
+    font-family: "futura-pt", sans-serif;
+}
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1 {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 600;
+    font-size: 200%;
+    font-style: normal;
+}
+
+/* Navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.top_nav {
+    font: 1.15em;
+    background: #444;
+    font-family: futura-pt,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .top_nav ul {
+    margin: 0.5%;
+    padding: 0;
+  }
+  
+  .top_nav li {
+    display: inline-block;
+    padding: 10px 100px 10px 180px;
+  }
+  
+  .top_nav li a {
+    text-decoration: none;
+    color: #EDA51A;
+  }
+  
+  .top_nav li a:hover {
+    padding-bottom: 3px;
+    color: #222;
+  }
+  
+  .content_nav {
+    font: 1.15em;
+    background: #444;
+    text-align: center;
+    font-family: futura-pt,sans-serif;
+    font-weight: 400;
+    font-size: 110%;
+    font-style: normal;
+  }
+  
+  .content_nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .content_nav li {
+    display: inline-block;
+    padding: 15px 40px;
+  }
+  
+  .content_nav li a {
+    text-decoration: none;
+    color: #EDA51A;
+  }
+  
+  .content_nav li a:hover {
+    padding-bottom: 3px;
+    color: #222;
+  }
