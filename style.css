@@ -11,18 +11,33 @@ section {
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-h1 {
+ h1 { 
     font-family: "futura-pt", sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 200%;
     font-style: normal;
+    color:  #2f0164;
+    text-align: center;
+}
+
+
+h2 { 
+  font-family: "futura-pt", sans-serif;
+  font-weight: 550;
+  font-size: 180%;
+  font-style: italic;
+  color:  #2f0164;
+  text-align: center;
+  padding: 1rem;
+
 }
 
 /* Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .top_nav {
     font: 1.15em;
-    background: #444;
+    background: #ffffff;
+    border-width: 2rem;
     font-family: futura-pt,sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -30,27 +45,34 @@ h1 {
   
   .top_nav ul {
     margin: 0.5%;
-    padding:;
   }
   
   .top_nav li {
     display: inline-block;
-    padding: 1em 3rem;
+    padding: 1em;
+    margin-bottom: 1rem;
+    border: 3px solid #2f0164;
+    border-radius: 30px;
+
   }
   
   .top_nav li a {
     text-decoration: none;
-    color: #EDA51A;
+    color:  #2f0164;
   }
   
   .top_nav li a:hover {
     padding-bottom: 3px;
-    color: #222;
+    color: #2f0164;
+  }
+
+  .tel{
+    float: right;
   }
   
   .content_nav {
     font: 1.15em;
-    background: #444;
+    background:  #2f0164;
     text-align: center;
     font-family: futura-pt,sans-serif;
     font-weight: 400;
@@ -77,3 +99,51 @@ h1 {
     padding-bottom: 3px;
     color: #222;
   }
+
+/* Icons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.beam {
+  width: 80%;
+  height: 25%;
+  position: relative;
+  display: block;
+  margin: 5% auto;
+  text-align : center;
+}
+
+.icon {
+  width: 50%;
+  height: 25%;
+  position: relative;
+  display: block;
+  margin: 2% auto;
+}
+
+#find_support {
+  width: 70%;
+  height: 30%;
+  position: relative;
+  display: block;
+  margin: 2% auto;
+  padding-left: 10%
+}
+
+/* Icon Containers
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.flow{
+  border: 3px solid  #3b66b9;
+  border-radius: 15px;
+  margin-top: 3%;
+}
+
+#home_header {
+  border: 3px solid  #2f0164;
+  border-radius: 15px;
+  margin-top: 3%;
+}
+
+.page_content{
+  margin-bottom: 5rem;
+}
