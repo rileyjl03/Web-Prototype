@@ -32,13 +32,29 @@ h2 {
 
 }
 
+p {
+    font-family: "futura-pt",sans-serif;
+    font-weight: 400;
+    font-size: 1.15rem;
+    font-style: normal;
+    color:  #2f0164
+}
+
+.header_footer {
+font-size: 1.15em;
+font-family: "futura-pt",sans-serif;
+font-weight: 400;
+font-style: normal;
+color:  #EDA51A
+}
+
 /* Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .top_nav {
     font: 1.15em;
     background: #ffffff;
     border-width: 2rem;
-    font-family: futura-pt,sans-serif;
+    font-family: "futura-pt",sans-serif;
     font-weight: 400;
     font-style: normal;
   }
@@ -73,10 +89,10 @@ h2 {
   .content_nav {
     font: 1.15em;
     background:  #2f0164;
+    border-radius: 5px;
     text-align: center;
-    font-family: futura-pt,sans-serif;
+    font-family: "futura-pt",sans-serif;
     font-weight: 400;
-    font-size: 110%;
     font-style: normal;
   }
   
@@ -98,6 +114,21 @@ h2 {
   .content_nav li a:hover {
     padding-bottom: 3px;
     color: #222;
+  }
+
+  footer{
+    background-color:  #2f0164;
+    border-radius: 5px;
+  }
+
+  footer > p {
+    color: #EDA51A;
+    font-family: "futura-pt",sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    font-style: italic;
+    padding: 5%;
+    text-align: center;
   }
 
 /* Icons
@@ -136,6 +167,14 @@ h2 {
   border: 3px solid  #3b66b9;
   border-radius: 15px;
   margin-top: 3%;
+}
+
+.flow2{
+  border: 3px solid  #2f0164;
+  border-radius: 15px;
+  margin-top: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 #home_header {

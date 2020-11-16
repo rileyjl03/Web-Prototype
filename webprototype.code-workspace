@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "Web-Prototype",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Web-Prototype"
+	}
+}
