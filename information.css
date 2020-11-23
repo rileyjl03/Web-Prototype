@@ -1,0 +1,211 @@
+main > section {
+    padding: 0;
+  }
+  
+  footer{
+    background-color:  #2f0164;
+    border-radius: 5px;
+  }
+
+  /* Page Header Graphics 
+--------------------------------------------------- */
+.graphic_header{
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  
+  /* Typography for Information Page 
+  ------------------------------------------------- */
+h1 {
+    font-family: "futura-pt", sans-serif;
+  }
+  
+
+
+  .sub_pages {  /* These are the labels for the top of every page  */
+  font-family: "futura-pt", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  font-style: normal;
+  color:  #2f0164;
+  text-align: center;
+}
+
+.h2_about { 
+  font-family: "futura-pt", sans-serif;
+  font-weight: 550;
+  font-size: 1.6rem;
+  font-style: italic;
+  color:  #2f0164;
+  text-align: center;
+  padding: 1rem;
+
+}
+
+h3 {
+  font-family: "futura-pt", sans-serif;
+  font-weight: 550;
+  font-size: 1.4rem;
+  font-style: normal;
+  color:  #2f0164;
+  text-align: center;
+}
+
+p {
+    font-family: "futura-pt",sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    font-style: normal;
+    color:  #2f0164;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .info_lead{
+    list-style-type: none;
+    font-family: "futura-pt",sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    font-style: normal;
+    color:   #3b65b9;
+    padding: 0;
+  }
+
+
+  footer > p {
+    color: #EDA51A;
+    font-family: "futura-pt",sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    font-style: italic;
+    padding: 5%;
+    text-align: center;
+  }
+
+
+  /* Navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.top_nav {
+    font: 1.15em;
+    background: #ffffff;
+    border-width: 2rem;
+    font-family: "futura-pt",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+  }
+  
+  .top_nav ul {
+    margin: 0.5%;
+  }
+  
+  .top_nav li {
+    display: inline-block;
+    padding: 1em;
+    margin-bottom: 1rem;
+    border: 3px solid #2f0164;
+    border-radius: 30px;
+  
+  }
+  
+  .top_nav li a {
+    text-decoration: none;
+    color:  #2f0164;
+  }
+  
+  .top_nav li a:hover {
+    padding-bottom: 3px;
+    color: #2f0164;
+  }
+  
+  .tel{
+    float: right;
+  }
+  
+  .content_nav {
+    font-size: 1.15em;
+    background:  #2f0164;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "futura-pt",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .content_nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .content_nav li {
+    display: inline-block;
+    padding: 15px 40px;
+  }
+  
+  .content_nav li a {
+    text-decoration: none;
+    color: #EDA51A;
+  }
+  
+  .content_nav li a:hover {
+    padding-bottom: 3px;
+    color: #222;
+  }
+  
+  footer{
+    width: 100%;
+    background-color:  #2f0164;
+    border-radius: 5px;
+  }
+  
+  footer > p {
+    color: #EDA51A;
+    font-family: "futura-pt",sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    font-style: italic;
+    padding: 5%;
+    text-align: center;
+  }
+
+  /* Icons for Information Page 
+  ------------------------------------------------- */
+  .age_group_containers{
+    display: grid;
+    grid-template-columns: 33.333% 66.666%;
+    grid-template-rows: 100px 100px 100px;
+    background-color: #3b65b9;
+    padding: 2%;
+    margin-left: 3%;
+    margin-right: 0;
+    border-radius: 5px;
+  }
+
+  .age_group_containers > div {
+    text-align: center;
+  }
+
+  .info_icons_1{
+     display: grid;
+     grid-column-start: 1;
+     grid-column-end: 2;
+     grid-row-start: 1;
+     grid-row-end: 2;
+     width: 100%;
+     height: 100%;
+  }
+
+  .info_text_container_1 {
+    word-wrap: break-word;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    background: white;
+
+  }
+
+
+ 

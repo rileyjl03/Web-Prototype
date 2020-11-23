@@ -1,0 +1,121 @@
+main > section {
+    padding: 0;
+  }
+  
+  footer{
+    background-color:  #2f0164;
+    border-radius: 5px;
+  }
+
+   /* Typography for About Page */
+
+  h1 {
+    font-family: "futura-pt", sans-serif;
+  }
+
+  p {
+    font-family: "futura-pt",sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    font-style: normal;
+    color:  #2f0164;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  footer > p {
+    color: #EDA51A;
+    font-family: "futura-pt",sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    font-style: italic;
+    padding: 5%;
+    text-align: center;
+  }
+
+ /* Navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.top_nav {
+    font: 1.15em;
+    background: #ffffff;
+    border-width: 2rem;
+    font-family: "futura-pt",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+  }
+  
+  .top_nav ul {
+    margin: 0.5%;
+  }
+  
+  .top_nav li {
+    display: inline-block;
+    padding: 1em;
+    margin-bottom: 1rem;
+    border: 3px solid #2f0164;
+    border-radius: 30px;
+  
+  }
+  
+  .top_nav li a {
+    text-decoration: none;
+    color:  #2f0164;
+  }
+  
+  .top_nav li a:hover {
+    padding-bottom: 3px;
+    color: #2f0164;
+  }
+  
+  .tel{
+    float: right;
+  }
+  
+  .content_nav {
+    font-size: 1.15em;
+    background:  #2f0164;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "futura-pt",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .content_nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .content_nav li {
+    display: inline-block;
+    padding: 15px 40px;
+  }
+  
+  .content_nav li a {
+    text-decoration: none;
+    color: #EDA51A;
+  }
+  
+  .content_nav li a:hover {
+    padding-bottom: 3px;
+    color: #222;
+  }
+  
+  footer{
+    width: 100%;
+    background-color:  #2f0164;
+    border-radius: 5px;
+  }
+  
+  footer > p {
+    color: #EDA51A;
+    font-family: "futura-pt",sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    font-style: italic;
+    padding: 5%;
+    text-align: center;
+  }
+
+  

@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width">
     <title>Web Prototype</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="style.css" rel="stylesheet" type="text/css" /> -->
+    <!-- <link rel="stylesheet" href="normalize.css" /> -->
     <link href="about.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://use.typekit.net/muj4cxp.css">
   </head>
 
-<body>
-    <header>
+  <body>
+    <div class="header">
+    <!-- Option 1 Nav Bar -->
     <!--- <nav role="navigation">
         <div id="menuToggle">
          
@@ -47,7 +49,8 @@
         </div>
       </nav>--->
 
-      <div id='topnav' class='nav'>
+      <!-- Option 2 Nav Bar -->
+      <!-- <div id='topnav' class='nav'>
         <h1 class="about_header">About Us</h1>
         <ul id="menu">
             <a href="index.html"><li>Home</li></a>
@@ -70,61 +73,123 @@
         <a class='icon' onClick="navbarToggle()" href="javascript:void(0);">
           <i class='fa fa-bars'></i>
         </a>
-      </div>
-</header>
+      </div> -->
+      <nav class="top_nav"> 
+        <ul>
+         <!--Note: the image of MHFA should be used instead of the word "Home"*/-->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="tel:1300643287">Emergency Contact</a></li>
+        </ul>
+      </nav>
+
+      <nav class="content_nav">
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="information.html">Information</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="support.html">Find Support</a></li>
+        </ul>
+      </nav>
+</div>
 
 <main>
+  <img class="graphic_header" src="assets/about_us_desk.svg" alt="about us PAGE graphic">
+  <h1 class="sub_pages">About Mental Health Foundation Australia</h1>
     <section id="Overview">
-        <h2>Overview</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <h2 class="h2_about">Overview</h2>
+        <p>Mental Health Foundation Australia (MHFA) is a not-for-profit organisation that has been serving the community since 1930. We provide support to causes for inclusivity, awareness, education and resilience, which promote better mental health for all. We are the oldest Mental Health Association in Australia.
+        <br>
+        <br>
+        We come from all walks of life - professionals, those living with mental struggles, family members and friends, related organisations concerned with mental health and members of the public with an interest in mental health.
+          
         </p>
     </section>
 
     <section id="Our_History">
-        <h2>Our History</h2>
-        <p>nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <h2 class="h2_about">Our History</h2>
+        <p>Mental Health Foundation Australia had its origins in Australia's first mental health association, the Mental Health Foundation Victoria, which was established in 1930 as the Victorian Mental Hygiene Council (VMHC). This was an era during which the State Government's handling of mental health was the responsibility of the Lunacy Department.
+          <br>
+          <br>
+        In July 1981, five people gathered at the Department of Psychiatry at Melbourne University to form the Mental Health Foundation of Australia, which was initiated to make the Victorian Mental Hygiene Council (VMHC) part of a federation under the newly founded Australian National Association for Mental Health (ANAMH). They were Dr Graham Dene Burrows, Graeme Angus, Anne Thomson, the Reverend Alan Jones and Albert Moore.
+          <br>
+          <br>
+        The Memorandum and Articles of Association were duly signed at this unheralded ceremony to establish the MHFA as a charitable organisation which would draw heightened attention to the nation's rapidly mounting mental health problem and mould a collective effort to combat it.
+          
         </p>
 
     </section>
 
     <section id="Our_Goals">
-        <h2>Our Goals</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <h2 class="h2_about">Our Goals</h2>
+        <p>We prioritise promoting mental health, whilst offering the means to maintain it. We also see the importance in educating the community about support options, changing community attitudes and raising awareness of the importance of good mental health.
+          <br>
+          <br>
+        The goals of the organisation can be summarised as such:
+        <ul id="goals_list">
+          <li>promote mental health and attitudes to mental health;</li>
+          <li>establish collaboration with governments, individuals, and health related agencies, groups and organisations;</li>
+          <li>make recommendations regarding mental health policy, implementation and services;</li>
+          <li>encourage and initiate mental health research;</li>
+          <li>encourage the highest standards in training and practice for the mental health professions;</li>
+          <li>establish and support organisations which provide service, support and advice to the community;</li>
+          <li>stimulate the development of informed public debate and opinion on mental health issues;</li>
+          <li> work to remove stigma within the wider community associated with mental ill health;</li>
+          <li>build bridges between those with mental illness and those without, in an effort to link our community together.</li>
+        </ul>
         </p>
     </section>
 
     <section id="Our_Board">
-        <h2>Our Board</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <h2 class="h2_about">Our Board</h2>
+        <h3>Patrons</h3>
+        <p>
+          <ul class="board_list">
+            <li>Emeritus Professor Bruce J. Tonge</li>
+            <li>Carole Crean</li>
+          </ul>
+        </p>
+
+        <h3>Chairperson <br>and<br> Vice-Chairperson</h3>
+        <p>
+          <ul class="board_list">
+            <li>Vasan Srinivasan</li>
+            <li>Jim Goodin</li>
+          </ul>
+        </p>
+        
+        <h3>Secretary</h3>
+        <p>
+          <ul class="board_list">
+            <li>Huss Mustafa OAM</li>
+          </ul>
+        </p>
+        
+        <h3>Treasurer</h3>
+        <p>
+          <ul class="board_list">
+            <li>Jimmy Ma</li>
+          </ul>
+        </p>
+        
+        <h3>Directors</h3>
+        <p>
+          <ul class="board_list">
+            <li>Daryl Williams QC</li>
+            <li>Helena Kyriazopoulos</li>
+            <li>Professor David Castle</li>
+            <li>Kirilly Dutton</li>
+            <li>Prof Peter Barlis</li>
+            <li>Anne Donaldson</li>
+            <li>A/Prof Theresa Jacques</li>
+          </ul>
         </p>
     </section>
+  </main>
+   </body>
 
-    <section id="Our_MCA">
-        <h2>Our Multicultural Ambassadors</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-    </section>
-
-    <section id="Our_YA">
-        <h2>Our Youth Ambassadors</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-    </section>
-
-    <section id="Our_YA">
-        <h2>Our Youth Ambassadors</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-    </section>
-
-    <section id="Our_SAC">
-        <h2>Our Scientific Advisory Committee</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-    </section>
-
-</main>
-
-<script src="script.js"></script>
-</body>
+<footer>
+  <p>Our bodies are our gardens - <br> our wills are our gardeners.</p>
+</footer>
+<!-- 
+<script src="script.js"></script> -->
 </html>
