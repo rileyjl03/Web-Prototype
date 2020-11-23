@@ -153,8 +153,8 @@ footer > p {
 }
 
 .top_nav li a:hover {
-  padding-bottom: 3px;
-  color: #2f0164;
+  padding: 1em;
+  margin-bottom: 1rem;
 }
 
 .tel{
@@ -188,7 +188,7 @@ footer > p {
 
 .content_nav li a:hover {
   padding-bottom: 3px;
-  color: #222;
+  color: #649cfc;
 }
 
 footer{

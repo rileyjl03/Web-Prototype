@@ -79,8 +79,8 @@ color:  #EDA51A
   }
   
   .top_nav li a:hover {
-    padding-bottom: 3px;
-    color: #2f0164;
+    padding: 1em;
+    margin-bottom: 1rem;
   }
 
   .tel{
@@ -136,8 +136,8 @@ color:  #EDA51A
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .beam {
-  width: 80%;
-  height: 25%;
+  width: 40%;
+  height: auto;
   position: relative;
   display: block;
   margin: 5% auto;
@@ -145,16 +145,16 @@ color:  #EDA51A
 }
 
 .icon {
-  width: 50%;
-  height: 25%;
+  width: 40%;
+  height: auto;
   position: relative;
   display: block;
   margin: 2% auto;
 }
 
 #find_support {
-  width: 70%;
-  height: 30%;
+  width: 40%;
+  height: auto;
   position: relative;
   display: block;
   margin: 2% auto;
@@ -165,7 +165,7 @@ color:  #EDA51A
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .flow{
-  border: 3px solid  #3b66b9;
+  border: 10px dotted  #3b66b9;
   border-radius: 15px;
   margin-top: 3%;
 }
@@ -188,52 +188,13 @@ color:  #EDA51A
   margin-bottom: 5rem;
 }
 
+
+
 @media screen 
   and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
+  and (max-device-width: 2000px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
- 
-  /* Icon containers and icons */
-    
-    .flow {
-      display: inline-flex;
-      width: 100%;
-      justify-content: space-between;
-    }
-    .page_content {
-      float: left;
-      margin: 0;
-      padding: 0;
-    }
-
-    .icon{
-      margin: 0;
-      width: 200px;
-      height: 180px;
-      position: static;
-    }
-
-    #home_header {
-      border: 3px solid  #2f0164;
-      border-radius: 15px;
-      margin-top: 3%;
-      height: 20%;
-    }
-
-    .beam{
-      width: 10%;
-      height: 10%;
-    }
-
-    #find_support{
-      margin: 0;
-      width: 200px;
-      height: 180px;
-      position: static;
-    }
-
-
-  /* Typography */
+    /* Typography */
   .top_nav {
     font-size: 1.5rem;
   }
@@ -242,15 +203,63 @@ color:  #EDA51A
     font-size: 1.7rem;
   }
 
-  h2{
-    font-size: 250%;
+  h2 {
+    font-size: 1.15rem;
   }
 
-  p{
-    font-size: 2.0rem;
+  p {
+    font-size: 1.15rem;
   }
 
   footer > p{
-    font-size: 2.0rem;
+    font-size: 1.5rem;
+    padding: 0;
   }
-}
+
+  footer {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    margin: 0;
+  }
+
+  .beam{
+    width: 20%;
+    height: auto;
+    position: relative;
+    /* display: block; */
+    margin: 2% auto;
+  }
+
+  .flow {
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+  }
+
+  .flow2{
+    float: left;
+    display: inline-block;
+    width: 80%;
+    margin-bottom: 2%;
+  }
+
+  .page_content {
+    width: 20%;
+    float: left;
+  }
+
+  .icon {
+    width: 80%;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  #find_support {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: 2% auto;
+    padding-left: 5%;
+  }
