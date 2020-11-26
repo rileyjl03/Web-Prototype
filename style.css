@@ -31,7 +31,7 @@ h2 {
   font-family: "futura-pt", sans-serif;
   font-weight: 550;
   font-size: 1.7rem;
-  font-style: italic;
+  font-style: normal;
   color:  #2f0164;
   text-align: center;
   padding: 1rem;
@@ -184,7 +184,7 @@ color:  #EDA51A
 }
 
 #home_header {
-  border: 3px solid  #2f0164;
+  border: 20px double  #2f0164;
   border-radius: 15px;
   margin-top: 3%;
 }
@@ -241,7 +241,6 @@ color:  #EDA51A
   }
 
   .flow2{
-    float: left;
     display: inline-block;
     width: 80%;
     margin-bottom: 2%;
