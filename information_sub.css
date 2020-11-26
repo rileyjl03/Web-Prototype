@@ -1,16 +1,66 @@
 main > section {
     padding: 0;
   }
+
+  .main_divide{
+    border: 3px solid #8d8d8d;
+    border-radius: 10px;
+    width: 95vw;
+    margin-bottom: 3%;
+  }
+
+ .sub_divide {
+  border: 1px dashed #8d8d8d;
+  width: 95vw;
+  margin-top: 5%;
+  margin-bottom: 2%;
+ }
+
+
+  .graphic_header{
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
   
   footer{
     background-color:  #2f0164;
     border-radius: 5px;
   }
 
-   /* Typography for About Page */
+   /* Typography for Info Sub Page */
 
   h1 {
     font-family: "futura-pt", sans-serif;
+    justify-content: center;
+  }
+
+
+  .age {  /* These are the labels for the top of every page  */
+    font-family: "futura-pt", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    font-style: normal;
+    color: #2f0164;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: "futura-pt", sans-serif;
+  font-weight: 550;
+  font-size: 1.6rem;
+  font-style: normal;
+  color:  #2f0164;
+  text-align: center;
+  }
+
+  h3 {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 550;
+    font-size: 1.4rem;
+    font-style: normal;
+    color:  #2f0164;
+    text-align: center;
   }
 
   p {
@@ -22,6 +72,7 @@ main > section {
     padding-left: 5%;
     padding-right: 5%;
   }
+
 
   footer > p {
     color: #EDA51A;
@@ -36,86 +87,760 @@ main > section {
  /* Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .top_nav {
-    font: 1.15em;
-    background: #ffffff;
-    border-width: 2rem;
-    font-family: "futura-pt",sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    justify-content: center;
-  }
-  
-  .top_nav ul {
-    margin: 0.5%;
-  }
-  
-  .top_nav li {
-    display: inline-block;
-    padding: 1em;
-    margin-bottom: 1rem;
-    border: 3px solid #2f0164;
-    border-radius: 30px;
-  
-  }
-  
-  .top_nav li a {
-    text-decoration: none;
-    color:  #2f0164;
-  }
-  
-  .top_nav li a:hover {
-    padding-bottom: 3px;
-    color: #2f0164;
-  }
-  
-  .tel{
-    float: right;
-  }
-  
-  .content_nav {
-    font-size: 1.15em;
-    background:  #2f0164;
-    border-radius: 5px;
-    text-align: center;
-    font-family: "futura-pt",sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .content_nav ul {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .content_nav li {
-    display: inline-block;
-    padding: 15px 40px;
-  }
-  
-  .content_nav li a {
-    text-decoration: none;
-    color: #EDA51A;
-  }
-  
-  .content_nav li a:hover {
-    padding-bottom: 3px;
-    color: #222;
-  }
-  
-  footer{
-    width: 100%;
-    background-color:  #2f0164;
-    border-radius: 5px;
-  }
-  
-  footer > p {
-    color: #EDA51A;
-    font-family: "futura-pt",sans-serif;
-    font-weight: 500;
-    font-size: 1.3rem;
-    font-style: italic;
-    padding: 5%;
-    text-align: center;
-  }
+  font: 1.15em;
+  background: #ffffff;
+  border-width: 2rem;
+  font-family: "futura-pt",sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  justify-content: center;
+}
+
+.top_nav ul {
+  margin: 0.5%;
+}
+
+.top_nav li {
+  display: inline-block;
+  padding: 1em;
+  margin-bottom: 1rem;
+  border: 3px solid #2f0164;
+  border-radius: 30px;
+
+}
+
+.top_nav li a {
+  text-decoration: none;
+  color:  #2f0164;
+}
+
+.top_nav li a:hover {
+  padding: 1em;
+  margin-bottom: 1rem;
+}
+
+.tel{
+  float: right;
+}
+
+.content_nav {
+  font-size: 1.15em;
+  background:  #2f0164;
+  border-radius: 5px;
+  text-align: center;
+  font-family: "futura-pt",sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.content_nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.content_nav li {
+  display: inline-block;
+  padding: 15px 40px;
+}
+
+.content_nav li a {
+  text-decoration: none;
+  color: #EDA51A;
+}
+
+.content_nav li a:hover {
+  padding-bottom: 3px;
+  color: #649cfc;
+}
+
+footer{
+  width: 100%;
+  background-color:  #2f0164;
+  border-radius: 5px;
+}
+
+/* Styles for General
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#general_YP{
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+
+/* Styles for STRUGGLES Cards
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#struggles_YP_cards {
+  width: 100vw;
+  height: auto;
+  display: block;
+  justify-content: center;
+
+}
+
+/* Depression Card
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#struggle_YP1 h3 ~ p {
+  display: none;
+}
+
+#struggle_YP1:hover h3 ~ p {
+  display: flex;
+}
+
+#struggle_YP1 {
+  width: 80%;
+  height: 20%;
+  margin-left: 7%;
+  margin-bottom: 2%;
+  border: 3px solid   #dbeeff;
+  border-radius: 10px;
+  background-color:   #dbeeff;
+}
+
+/* Anxiety Disorders Card
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#struggle_YP2 h3 ~ p {
+  display: none;
+}
+
+#struggle_YP2:hover h3 ~ p {
+  display: flex;
+}
+
+#struggle_YP2 {
+  width: 80%;
+  height: 20%;
+  margin-left: 7%;
+  margin-bottom: 2%;
+  border: 3px solid   #dbeeff;
+  border-radius: 10px;
+  background-color:  #dbeeff;
+}
+
+
+/* Suicide and Self-Harm Card
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#struggle_YP3 h3 ~ p {
+  display: none;
+}
+
+#struggle_YP3:hover h3 ~ p {
+  display: flex;
+}
+
+#struggle_YP3 {
+  width: 80%;
+  height: 20%;
+  margin-left: 7%;
+  margin-bottom: 2%;
+  border: 3px solid  #dbeeff;
+  border-radius: 10px;
+  background-color:  #dbeeff;
+}
+
+/* Bipolar Disorders Card
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#struggle_YP4 h3 ~ p {
+  display: none;
+}
+
+#struggle_YP4:hover h3 ~ p {
+  display: flex;
+}
+
+#struggle_YP4 {
+  width: 80%;
+  height: 20%;
+  margin-left: 7%;
+  margin-bottom: 2%;
+  border: 3px solid    #dbeeff;
+  border-radius: 10px;
+  background-color:   #dbeeff;
+}
+
+/* Eating Disorders Card
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#struggle_YP5 h3 ~ p{
+  display: none;
+}
+
+#struggle_YP5:hover h3 ~ p{
+  display: flex;
+}
+
+#struggle_YP5 {
+  width: 80%;
+  height: 20%;
+  margin-left: 7%;
+  margin-bottom: 2%;
+  border: 3px solid    #dbeeff;
+  border-radius: 10px;
+  background-color:    #dbeeff;
+}
+
+/* Styles for OVERCOME Cards
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#overcome_YP_cards {
+  width: 100vw;
+  height: auto;
+  display: block;
+  justify-content: center;
+
+}
+
+/* Sleep Card
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#overcome_YP1 h3 ~ p {
+  display: none;
+}
+
+#overcome_YP1:hover h3 ~ p {
+  display: flex;
+}
+
+#overcome_YP1 {
+  width: 80%;
+  height: 20%;
+  margin-left: 7%;
+  margin-bottom: 2%;
+  border: 3px solid  #c0e1ff;
+  border-radius: 10px;
+  background-color:  #c0e1ff;
+}
+
+/* Exercise Card
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#overcome_YP2 h3 ~ p {
+  display: none;
+}
+
+#overcome_YP2:hover h3 ~ p {
+  display: flex;
+}
+
+#overcome_YP2 {
+  width: 80%;
+  height: 20%;
+  margin-left: 7%;
+  margin-bottom: 2%;
+  border: 3px solid  #c0e1ff;
+  border-radius: 10px;
+  background-color:  #c0e1ff;
+}
+
+/* Find Information Card
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#overcome_YP3 h3 ~ p {
+  display: none;
+}
+
+#overcome_YP3:hover h3 ~ p {
+  display: flex;
+}
+
+#overcome_YP3 {
+  width: 80%;
+  height: 20%;
+  margin-left: 7%;
+  margin-bottom: 2%;
+  border: 3px solid  #c0e1ff;
+  border-radius: 10px;
+  background-color:  #c0e1ff;
+}
+
+/* Seek Help Card
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#overcome_YP4 h3 ~ p {
+  display: none;
+}
+
+#overcome_YP4:hover h3 ~ p {
+  display: flex;
+}
+
+#overcome_YP4 {
+  width: 80%;
+  height: 20%;
+  margin-left: 7%;
+  margin-bottom: 2%;
+  border: 3px solid  #c0e1ff;
+  border-radius: 10px;
+  background-color:  #c0e1ff;
+}
+
+/* Styles for WHO TO APPROACH Cards
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#approach_YP_cards {
+  width: 100vw;
+  height: auto;
+  display: block;
+  justify-content: center;
+
+}
+
+/* Black Dog Insitute Card
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#approach_YP1 h3 ~ p {
+  display: none;
+}
+
+#approach_YP1:hover h3 ~ p {
+  display: flex;
+}
+
+#approach_YP1 {
+  width: 80%;
+  height: 20%;
+  margin-left: 7%;
+  margin-bottom: 2%;
+  border: 3px solid #92caff;;
+  border-radius: 10px;
+  background-color:  #92caff;
+}
+
+/* headspace Card
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#approach_YP2 h3 ~ p {
+  display: none;
+}
+
+#approach_YP2:hover h3 ~ p {
+  display: flex;
+}
+
+#approach_YP2 {
+  width: 80%;
+  height: 20%;
+  margin-left: 7%;
+  margin-bottom: 2%;
+  border: 3px solid  #92caff;
+  border-radius: 10px;
+  background-color:  #92caff;
+}
+
+/* batyr Card
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#approach_YP3 h3 ~ p {
+  display: none;
+}
+
+#approach_YP3:hover h3 ~ p {
+  display: flex;
+}
+
+#approach_YP3 {
+  width: 80%;
+  height: 20%;
+  margin-left: 7%;
+  margin-bottom: 2%;
+  border: 3px solid  #92caff;
+  border-radius: 10px;
+  background-color:  #92caff;
+}
+
+/* Organisation Logos
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.org_logo{
+  margin-right: 12px; 
+}
+
+/* Styles for STRUGGLES Cards
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#struggles_MA_cards {
+  width: 100vw;
+  height: auto;
+  display: block;
+  justify-content: center;
+
+}
+
+/* Anxiety Disorders Card
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#struggle_MA1 h3 ~ p {
+  display: none;
+}
+
+#struggle_MA1:hover h3 ~ p {
+  display: inline-block;
+  flex-wrap: nowrap;
+}
+
+#struggle_MA1 {
+  width: 80%;
+  height: 20%;
+  margin-left: 7%;
+  margin-bottom: 2%;
+  border: 3px solid   #ffe6c4;
+  border-radius: 10px;
+  background-color:   #ffe6c4;
+}
+
+/* Substance Abuse Card
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#struggle_MA2 h3 ~ p {
+  display: none;
+}
+
+#struggle_MA2:hover h3 ~ p {
+  display: inline-block;
+}
+
+#struggle_MA2 {
+  width: 80%;
+  height: 20%;
+  margin-left: 7%;
+  margin-bottom: 2%;
+  border: 3px solid   #ffe6c4;
+  border-radius: 10px;
+  background-color:  #ffe6c4;
+}
+
+
+/* Biological Factors Card
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#struggle_MA3 h3 ~ p {
+  display: none;
+}
+
+#struggle_MA3:hover h3 ~ p {
+  display: inline-block;
+}
+
+#struggle_MA3 {
+  width: 80%;
+  height: 20%;
+  margin-left: 7%;
+  margin-bottom: 2%;
+  border: 3px solid  #ffe6c4;
+  border-radius: 10px;
+  background-color:  #ffe6c4;
+}
+
+/* Negative Thoughts and Low Self-Esteem Card
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#struggle_MA4 h3 ~ p {
+  display: none;
+}
+
+#struggle_MA4:hover h3 ~ p {
+  display: inline-block;
+}
+
+#struggle_MA4 {
+  width: 80%;
+  height: 20%;
+  margin-left: 7%;
+  margin-bottom: 2%;
+  border: 3px solid    #ffe6c4;
+  border-radius: 10px;
+  background-color:   #ffe6c4;
+}
+
+/* Styles for OVERCOME Cards
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#overcome_MA_cards {
+  width: 100vw;
+  height: auto;
+  display: block;
+  justify-content: center;
+
+}
+
+/* Exercise Card
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#overcome_MA1 h3 ~ p {
+  display: none;
+}
+
+#overcome_YP1:hover h3 ~ p {
+  display: inline-block;
+}
+
+#overcome_MA1 {
+  width: 80%;
+  height: 20%;
+  margin-left: 7%;
+  margin-bottom: 2%;
+  border: 3px solid  #ffd9a3;
+  border-radius: 10px;
+  background-color: #ffd9a3;
+}
+
+/* Healthy Dieting Card
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#overcome_MA2 h3 ~ p {
+  display: none;
+}
+
+#overcome_MA2:hover h3 ~ p {
+  display: inline-block;
+}
+
+#overcome_MA2 {
+  width: 80%;
+  height: 20%;
+  margin-left: 7%;
+  margin-bottom: 2%;
+  border: 3px solid #ffd9a3;
+  border-radius: 10px;
+  background-color: #ffd9a3;
+}
+
+/* Share Feelings Card
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#overcome_MA3 h3 ~ p {
+  display: none;
+}
+
+#overcome_MA3:hover h3 ~ p {
+  display: inline-block;
+}
+
+#overcome_MA3 {
+  width: 80%;
+  height: 20%;
+  margin-left: 7%;
+  margin-bottom: 2%;
+  border: 3px solid #ffd9a3;
+  border-radius: 10px;
+  background-color: #ffd9a3;
+}
+
+/* Seek Help Card
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#overcome_MA4 h3 ~ p {
+  display: none;
+}
+
+#overcome_MA4:hover h3 ~ p {
+  display: inline-block;
+}
+
+#overcome_MA4 {
+  width: 80%;
+  height: 20%;
+  margin-left: 7%;
+  margin-bottom: 2%;
+  border: 3px solid #ffd9a3;
+  border-radius: 10px;
+  background-color: #ffd9a3;
+}
+
+/* Styles for WHO TO APPROACH Cards
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#approach_MA_cards {
+  width: 100vw;
+  height: auto;
+  display: block;
+  justify-content: center;
+
+}
+
+/* healthdirect Card
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#approach_MA1 h3 ~ p {
+  display: none;
+}
+
+#approach_MA1:hover h3 ~ p {
+  display: flex;
+}
+
+#approach_MA1 {
+  width: 80%;
+  height: 20%;
+  margin-left: 7%;
+  margin-bottom: 2%;
+  border: 3px solid  #ffc16b;
+  border-radius: 10px;
+  background-color: #ffc16b;
+}
+
+/* Lifeline Card
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#approach_MA2 h3 ~ p {
+  display: none;
+}
+
+#approach_MA2:hover h3 ~ p {
+  display: flex;
+}
+
+#approach_MA2 {
+  width: 80%;
+  height: 20%;
+  margin-left: 7%;
+  margin-bottom: 2%;
+  border: 3px solid #ffc16b;
+  border-radius: 10px;
+  background-color: #ffc16b;
+}
+
+/* My Aged Care Card
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#approach_MA3 h3 ~ p {
+  display: none;
+}
+
+#approach_MA3:hover h3 ~ p {
+  display: flex;
+}
+
+#approach_MA3 {
+  width: 80%;
+  height: 20%;
+  margin-left: 7%;
+  margin-bottom: 2%;
+  border: 3px solid #ffc16b;
+  border-radius: 10px;
+  background-color: #ffc16b;
+}
+
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 2000px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
 
   
+    /* Typography */
+  .top_nav {
+    font-size: 1.3rem;
+  }
+
+  .content_nav {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.6em;
+  }
+
+  p {
+    font-size: 1.15rem;
+  }
+
+  footer > p{
+    font-size: 1.5rem;
+    padding: 0;
+  }
+
+  footer {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+  }
+
+  #struggles_YP_cards {
+    width: 97vw;
+    height: auto;
+    display: flex;
+    float: left;
+    justify-content: center;
+    padding-left: 1%;
+  }  
+
+  #struggle_YP1, #struggle_YP2, #struggle_YP3,  #struggle_YP4, #struggle_YP5 {
+  width: 19%;
+  height: 20%;
+  margin-left: 1%;
+  margin-bottom: 2%;
+  border: 3px solid  #dbeeff;
+  border-radius: 10px;
+  background-color: #dbeeff;
+  }
+
+  #overcome_YP_cards {
+    width: 99vw;
+    height: auto;
+    display: flex;
+    float: left;
+    justify-content: center;
+    /* padding-right: 5%; */
+  }  
+
+  #overcome_YP1, #overcome_YP2, #overcome_YP3,  #overcome_YP4{
+  width: 23%;
+  height: 20%;
+  margin-left: 1%;
+  margin-bottom: 2%;
+  border: 3px solid  #c0e1ff;
+  border-radius: 10px;
+  background-color: #c0e1ff;
+  }
+
+  #approach_YP_cards {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    float: left;
+    justify-content: center;
+  }  
+
+  #approach_YP1, #approach_YP2, #approach_YP3 {
+  width: 30%;
+  height: 20%;
+  margin-left: 0;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-bottom: 2%;
+  border: 3px solid  #92caff;
+  border-radius: 10px;
+  background-color:  #92caff;
+  }
+
+  #struggles_MA_cards {
+    width: 99vw;
+    height: auto;
+    display: flex;
+    float: left;
+    justify-content: center;
+    /* padding-right: 5%; */
+  }  
+
+  #struggle_MA1, #struggle_MA2, #struggle_MA3,  #struggle_MA4{
+  width: 23%;
+  height: 20%;
+  margin-left: 1%;
+  margin-bottom: 2%;
+  }
+
+
+  #overcome_MA_cards {
+    width: 99vw;
+    height: auto;
+    display: flex;
+    float: left;
+    justify-content: center;
+    /* padding-right: 5%; */
+  }  
+
+  #overcome_MA1, #overcome_MA2, #overcome_MA3,  #overcome_MA4{
+  width: 23%;
+  height: 20%;
+  margin-left: 1%;
+  margin-bottom: 2%;
+  }
+
+  #approach_MA_cards {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    float: left;
+    justify-content: center;
+  }  
+
+  #approach_MA1, #approach_MA2, #approach_MA3 {
+  width: 30%;
+  height: 20%;
+  margin-left: 0;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-bottom: 2%;
+  border-radius: 10px;
+
+  }
+}

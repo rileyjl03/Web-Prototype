@@ -13,70 +13,8 @@
 
 <body>
 <div class="header">
-  <!-- Option 1 Nav Bar -->
-  <!--- <nav role="navigation">
-      <div id="menuToggle">
-       
-        <input type="checkbox" />
-
-  
-        <span></span>
-        <span></span>
-        <span></span>
-        
-        
-        Too bad the menu has to be inside of the button
-        but hey, it's pure CSS magic.
-  
-        <ul id="menu">
-          <a href="index.html"><li>Home</li></a>
-          <a href="about.html"><li>About Us
-              <ul>
-                  <li><a href = "#Overview">Overview</a></li>
-                  <li><a href = "#Our_History">Our History</a></li>
-                  <li><a href = "#Our_Goals">Our Goals</a></li>
-                  <li><a href = "#Our_Board">Our Board</a></li>
-                  <li><a href = "#Our_MCA">Our Multicultural Ambassadors</a></li>
-                  <li><a href = "#Our_YA">Our Multicultural Ambassadors</a></li>
-                  <li><a href = "#Our_SAC">Our Scientific Advisory Committee</a></li>
-              </ul>
-          </li></a>
-          <a href="information.html"><li>Information</li></a>
-          <a href="blog.html"><li>Blog</li></a>
-          <a href=#support.html><li>Find Support</li></a>
-          <a href="login.html" target="_blank"><li>Get Involved</li></a>
-        </ul>
-      </div>
-    </nav>--->
-
-    <!-- Option 2 Nav Bar -->
-    <!-- <div id='topnav' class='nav'>
-      <h1 class="about_header">About Us</h1>
-      <ul id="menu">
-          <a href="index.html"><li>Home</li></a>
-          <a href="about.html"><li>About Us
-              <ul>
-                  <li><a href = "#Overview">Overview</a></li>
-                  <li><a href = "#Our_History">Our History</a></li>
-                  <li><a href = "#Our_Goals">Our Goals</a></li>
-                  <li><a href = "#Our_Board">Our Board</a></li>
-                  <li><a href = "#Our_MCA">Our Multicultural Ambassadors</a></li>
-                  <li><a href = "#Our_YA">Our Youth Ambassadors</a></li>
-                  <li><a href = "#Our_SAC">Our Scientific Advisory Committee</a></li>
-              </ul>
-          </li></a>
-          <a href="information.html"><li>Information</li></a>
-          <a href="blog.html"><li>Blog</li></a>
-          <a href=#support.html><li>Find Support</li></a>
-          <a href="login.html" target="_blank"><li>Get Involved</li></a>
-        </ul>
-      <a class='icon' onClick="navbarToggle()" href="javascript:void(0);">
-        <i class='fa fa-bars'></i>
-      </a>
-    </div> -->
     <nav class="top_nav"> 
       <ul>
-       <!--Note: the image of MHFA should be used instead of the word "Home"*/-->
         <li><a href="index.html">Home</a></li>
         <li><a href="tel:1300643287">Emergency Contact</a></li>
       </ul>
@@ -87,7 +25,7 @@
         <li><a href="about.html">About Us</a></li>
         <li><a href="information.html">Information</a></li>
         <li><a href="blog.html">Blog</a></li>
-        <li><a href="support.html">Find Support</a></li>
+        <li><a href="login.html">Get Involved</a></li>
       </ul>
     </nav>
 </div>
@@ -96,71 +34,47 @@
 <img class="graphic_header" src="assets/information_desk.svg" alt="about us PAGE graphic">
 <h1 class="sub_pages">Information</h1>
 
-<!-- <div class="info_select_container">
-<img class="info_icons" src="assets/info_YP.svg" alt="information for young persons graphic">
-<div class="info_text_container">
-  <p>
-    <ul class="info_lead">
-      <li>General</li>
-      <li>Common Types of Struggles</li>
-      <li>How to Overcome Them</li>
-      <li>Who to Approach</li>
-    </ul>
-
-  </p>
-</div
-</div>
-
-<div class="info_select_container">
-  <img class="info_icons" src="assets/info_MA.svg" alt="information for young persons graphic">
-  <div class="info_text_container">
-    <p>
-      <ul class="info_lead">
-        <li>General</li>
-        <li>Common Types of Struggles</li>
-        <li>How to Overcome Them</li>
-        <li>Who to Approach</li>
-      </ul>
-  
-    </p>
-  </div
-  </div> -->
-
 <div class = "age_group_containers">
-    <div>
-      <img class="info_icons"src="assets/info_YP.svg" alt="information for young persons graphic">
-    </div>
+  <div id ="YP_hover">
+      <img id="info_icons_1"src="assets/info_YP.svg" alt="information for young persons graphic">
+    
     <div class="info_text_container">
-      <ul class="info_lead">
-        <li>General</li>
-        <li>Common Types of Struggles</li>
-        <li>How to Overcome Them</li>
-        <li>Who to Approach</li>
+      <ul class="info_lead"><strong>For Young Persons<br>(15 to 24 years old)</strong>
+        <li><a href ="/information_sub.html#general_YP">General</a></li>
+        <li><a href ="/information_sub.html#struggles_YP_cards">Common Types of Struggles</a></li>
+        <li><a href = "information_sub.html#overcome_YP_cards">How to Overcome Them</a></li>
+        <li><a href = "information_sub.html#approach_YP_cards">Who to Approach</a></li>
       </ul>
-  </div>
-  <div >
-    <img class="info_icons"src="assets/info_MA.svg" alt="information for young persons graphic">
-  </div>
-  <div class="info_text_container">
-    <ul class="info_lead">
-      <li>General</li>
-      <li>Common Types of Struggles</li>
-      <li>How to Overcome Them</li>
-      <li>Who to Approach</li>
-    </ul>
+    </div>
   </div>
 
-  <div>
-    <img class="info_icons"src="assets/info_carers.svg" alt="information for young persons graphic">
+  <hr>
+
+  <div id="MA_hover">
+    <img id="info_icons_2"src="assets/info_MA.svg" alt="information for middle-aged persons graphic">
+
+    <div class="info_text_container">
+    <ul class="info_lead"><strong>For Middle-Aged (45 to 54 years old)</strong>
+      <li><a href ="/information_sub.html#general_MA">General</a></li>
+      <li><a href ="/information_sub.html#struggles_MA_cards">Common Types of Struggles</a></li>
+      <li><a href ="/information_sub.html#overcome_MA_cards">How to Overcome Them</a></li>
+      <li><a href ="/information_sub.html#approach_MA_cards">Who to Approach</a></li>
+    </ul>
+    </div>
   </div>
-  <div class="info_text_container">
-    <ul class="info_lead">
+
+  <div id="carers_hover">
+    <img id="info_icons_3"src="assets/info_carers.svg" alt="information for carers graphic">
+    <div class="info_text_container">
+    <ul class="info_lead"><strong>For Carers</strong>
       <li>General</li>
       <li>Common Types of Struggles</li>
       <li>How to Overcome Them</li>
       <li>Who to Approach</li>
     </ul>
+    </div>
   </div>
+  
 </div>
 
 </main>

@@ -10,6 +10,11 @@ section {
     font-family: "futura-pt", sans-serif;
 }
 
+h1:hover, a:hover{
+  color: #9900ff;
+}
+
+
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
  h1 { 
@@ -195,33 +200,31 @@ color:  #EDA51A
   and (max-device-width: 2000px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
     /* Typography */
-  .top_nav {
-    font-size: 1.5rem;
-  }
-
-  .content_nav {
-    font-size: 1.7rem;
-  }
-
-  h2 {
-    font-size: 1.15rem;
-  }
-
-  p {
-    font-size: 1.15rem;
-  }
-
-  footer > p{
-    font-size: 1.5rem;
-    padding: 0;
-  }
-
-  footer {
-    display: inline-block;
-    float: left;
-    width: 100%;
-    margin: 0;
-  }
+    .top_nav {
+      font-size: 1.3rem;
+    }
+  
+    .content_nav {
+      font-size: 1.5rem;
+    }
+  
+    h2 {
+      font-size: 1.6em;
+    }
+  
+    p {
+      font-size: 1.15rem;
+    }
+  
+    footer > p{
+      font-size: 1.5rem;
+      padding: 0;
+    }
+  
+    footer {
+      display: inline-block;
+      width: 100%;
+    }
 
   .beam{
     width: 20%;
@@ -263,3 +266,5 @@ color:  #EDA51A
     margin: 2% auto;
     padding-left: 5%;
   }
+
+}

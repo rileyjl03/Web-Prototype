@@ -10,6 +10,10 @@ main > section {
     border-radius: 5px;
   }
 
+a:hover{
+  color:  #EDA51A;
+}
+
   /* Page Header Graphics 
 --------------------------------------------------- */
 .graphic_header{
@@ -17,6 +21,12 @@ main > section {
     margin-left: 2%;
     margin-right: 2%;
   }
+
+hr {
+  border: 3px solid #2f0164;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
 
   
   /* Typography for Information Page 
@@ -108,11 +118,8 @@ p {
 .top_nav {
     font: 1.15em;
     background: #ffffff;
-    border-width: 2rem;
     font-family: "futura-pt",sans-serif;
     font-weight: 400;
-    font-style: normal;
-    justify-content: center;
   }
   
   .top_nav ul {
@@ -149,7 +156,6 @@ p {
     text-align: center;
     font-family: "futura-pt",sans-serif;
     font-weight: 400;
-    font-style: normal;
   }
   
   .content_nav ul {
@@ -193,8 +199,8 @@ p {
   /* Icons for Information Page 
   ------------------------------------------------- */
   .age_group_containers{
-    display: grid;
-    grid-row-gap: 5%;
+    display: block;
+    grid-row-gap: 2%;
     grid-column-gap: 2%;
     grid-template-columns: 33.333% 66.666%;
     grid-template-rows: auto auto auto;
@@ -202,39 +208,51 @@ p {
     /* border: 4px dotted #2f0164;
     border-radius: 5px; */
     padding: 0%;
-    margin-left: 2%;
-    margin-right: 4%;
+    justify-content: space-between;
   }
 
   .age_group_containers > div {
     text-align: center;
     vertical-align: center;
+    margin: 0% 5% 10% 5%;
   }
 
-  .info_icons {
+
+  #info_icons_1 {
      display: grid;
      /* grid-column-start: 1;
      grid-column-end: 2; */
      width: 100%;
      height: 100%;
+  
   }
 
+  #info_icons_2 {
+    display: grid;
+    width: 100%;
+    height: 100%;
+ }
 
+ #info_icons_3 {
+  display: grid;
+  width: 100%;
+  height: 100%;
+}
 
 
   .info_text_container {
-    padding-bottom: 10%;
-    padding-top: 2%;
+    padding: 10%;
     grid-column-start: 2;
     grid-column-end: 3;
     background: none;
-
+    margin-top: 5%;
   }
 
   .info_text_container:nth-child(2){
     border: 3px dotted #3b65b9;
     border-radius: 5px;
   }
+
   .info_text_container:nth-child(4){
     border: 3px dotted #bf851f;
     border-radius: 5px;
@@ -245,59 +263,124 @@ p {
     border-radius: 5px;
   }
 
+  /* MEDIA QUERIES */
   @media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 2000px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
+  
+  /* Styles */
+  hr{
+    display: none;
+  }
+  
     /* Typography */
-  .top_nav {
-    font-size: 1.5rem;
+    .top_nav {
+      font-size: 1.3rem;
+    }
+  
+    .content_nav {
+      font-size: 1.5rem;
+    }
+  
+    h2 {
+      font-size: 1.6em;
+    }
+  
+    p {
+      font-size: 1.15rem;
+    }
+  
+    footer > p{
+      font-size: 1.5rem;
+      padding: 0;
+    }
+  
+    footer {
+      display: iblock;
+      width: 100%;
+    }
+
+  .info_lead{
+    list-style-type: none;
+    font-family: "futura-pt",sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    font-style: normal;
+    padding: 10%;
+    display: inline;
   }
 
-  .content_nav {
-    font-size: 1.7rem;
+  .info_text_container {
+    padding: 2%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background: none;
+    
   }
 
-  h2 {
-    font-size: 1.15rem;
-  }
-
-  p {
-    font-size: 1.15rem;
-  }
-
-  footer > p{
-    font-size: 1.5rem;
-    padding: 0;
-  }
-
-  footer {
-    display: inline-block;
-    float: left;
-    width: 100%;
-    margin: 0;
-  }
-
+  /* Containers for Icons */
   .age_group_containers{
-   display: flex;
-   max-width: 77%;
-   justify-content: space-between;
-   text-align: center;
-   margin-bottom: 2%;
+    display: flex;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto 5% auto
+   }
+
+   .age_group_containers div {
+    margin: 3%;
+   }
+
+   #YP_hover{
+     width: 100%;
+     height: auto;
+   }
+
+   #MA_hover {
+     width: 100%;
+     height: auto;
+   }
+
+   #carers_hover{
+     width: 100%;
+     height: auto;
+   }
+
+
+  /* Icons for Information Page */
+  .info_text_container {
+    display: none;
   }
 
-
-  .info_icons {
-    width: 300%;
+  #info_icons_2 {
+    width: 100%;
     height: auto;
   }
 
-  .info_text_container{
+  #info_icons_3 {
     width: 100%;
-    display: none;
-    justify-content: space-between;
+    height: auto;
   }
 
+  /* Hover functions here */
+  /* This is for the Young Persons icon selection */
+  #YP_hover:hover > #info_icons_1 {
+    display: none;
+  }
 
+  #info_icons_1 {
+    width: 100%;
+    height: auto;
+  }
 
- 
+  #YP_hover:hover > .info_text_container:nth-child(2) {
+    width: 82%;
+    height: 80%;
+    display: block;
+    border: 5px dashed #0e65bd;
+    border-radius: 23px;
+    margin: 0;
+    text-align: center;
+    padding: 8%;
+  }
+}

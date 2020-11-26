@@ -5,78 +5,15 @@
     <meta name="viewport" content="width=device-width">
     <title>Web Prototype</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <link href="style.css" rel="stylesheet" type="text/css" /> -->
-    <!-- <link rel="stylesheet" href="normalize.css" /> -->
     <link href="about.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://use.typekit.net/muj4cxp.css">
   </head>
 
   <body>
     <div class="header">
-    <!-- Option 1 Nav Bar -->
-    <!--- <nav role="navigation">
-        <div id="menuToggle">
-         
-          <input type="checkbox" />
-
-    
-          <span></span>
-          <span></span>
-          <span></span>
-          
-          
-          Too bad the menu has to be inside of the button
-          but hey, it's pure CSS magic.
-    
-          <ul id="menu">
-            <a href="index.html"><li>Home</li></a>
-            <a href="about.html"><li>About Us
-                <ul>
-                    <li><a href = "#Overview">Overview</a></li>
-                    <li><a href = "#Our_History">Our History</a></li>
-                    <li><a href = "#Our_Goals">Our Goals</a></li>
-                    <li><a href = "#Our_Board">Our Board</a></li>
-                    <li><a href = "#Our_MCA">Our Multicultural Ambassadors</a></li>
-                    <li><a href = "#Our_YA">Our Multicultural Ambassadors</a></li>
-                    <li><a href = "#Our_SAC">Our Scientific Advisory Committee</a></li>
-                </ul>
-            </li></a>
-            <a href="information.html"><li>Information</li></a>
-            <a href="blog.html"><li>Blog</li></a>
-            <a href=#support.html><li>Find Support</li></a>
-            <a href="login.html" target="_blank"><li>Get Involved</li></a>
-          </ul>
-        </div>
-      </nav>--->
-
-      <!-- Option 2 Nav Bar -->
-      <!-- <div id='topnav' class='nav'>
-        <h1 class="about_header">About Us</h1>
-        <ul id="menu">
-            <a href="index.html"><li>Home</li></a>
-            <a href="about.html"><li>About Us
-                <ul>
-                    <li><a href = "#Overview">Overview</a></li>
-                    <li><a href = "#Our_History">Our History</a></li>
-                    <li><a href = "#Our_Goals">Our Goals</a></li>
-                    <li><a href = "#Our_Board">Our Board</a></li>
-                    <li><a href = "#Our_MCA">Our Multicultural Ambassadors</a></li>
-                    <li><a href = "#Our_YA">Our Youth Ambassadors</a></li>
-                    <li><a href = "#Our_SAC">Our Scientific Advisory Committee</a></li>
-                </ul>
-            </li></a>
-            <a href="information.html"><li>Information</li></a>
-            <a href="blog.html"><li>Blog</li></a>
-            <a href=#support.html><li>Find Support</li></a>
-            <a href="login.html" target="_blank"><li>Get Involved</li></a>
-          </ul>
-        <a class='icon' onClick="navbarToggle()" href="javascript:void(0);">
-          <i class='fa fa-bars'></i>
-        </a>
-      </div> -->
+  
       <nav class="top_nav"> 
         <ul>
-         <!--Note: the image of MHFA should be used instead of the word "Home"*/-->
           <li><a href="index.html">Home</a></li>
           <li><a href="tel:1300643287">Emergency Contact</a></li>
         </ul>
@@ -87,7 +24,7 @@
           <li><a href="about.html">About Us</a></li>
           <li><a href="information.html">Information</a></li>
           <li><a href="blog.html">Blog</a></li>
-          <li><a href="support.html">Find Support</a></li>
+          <li><a href="login.html">Get Involved</a></li>
         </ul>
       </nav>
 </div>
@@ -95,6 +32,8 @@
 <main>
   <img class="graphic_header" src="assets/about_us_desk.svg" alt="about us PAGE graphic">
   <h1 class="sub_pages">About Mental Health Foundation Australia</h1>
+  <img class="beam"
+      src="assets/mhfa_logo.png" alt="balance beam for central theme">
     <section id="Overview">
         <h2 class="h2_about">Overview</h2>
         <p>Mental Health Foundation Australia (MHFA) is a not-for-profit organisation that has been serving the community since 1930. We provide support to causes for inclusivity, awareness, education and resilience, which promote better mental health for all. We are the oldest Mental Health Association in Australia.
@@ -148,7 +87,11 @@
             <li>Carole Crean</li>
           </ul>
         </p>
-
+        <div class="image_container">
+          <img class="image_pair" src="assets/emeritus.jpeg" alt="Emeritus Professor Bruce J. Tonge" width="200px" height="auto">
+          <img class="image_pair" src="assets/carole.jpeg" alt="Carole Crean" width="200px" height="auto">
+        </div>
+      
         <h3>Chairperson <br>and<br> Vice-Chairperson</h3>
         <p>
           <ul class="board_list">
@@ -156,6 +99,10 @@
             <li>Jim Goodin</li>
           </ul>
         </p>
+        <div class="image_container">
+          <img class="image_pair" src="assets/vasan.jpeg" alt="Vasan Srinivasan" width="200px" height="auto">
+          <img class="image_pair" src="assets/jim.jpeg" alt="Jim Goodin" width="200px" height="auto">
+        </div>
         
         <h3>Secretary</h3>
         <p>
@@ -163,6 +110,9 @@
             <li>Huss Mustafa OAM</li>
           </ul>
         </p>
+        <div class="image_container">
+          <img class="image_our_board_3" src="assets/huss.jpeg" alt="Huss Mustafa OAM" width="200px" height="auto">
+        </div>
         
         <h3>Treasurer</h3>
         <p>
@@ -170,6 +120,9 @@
             <li>Jimmy Ma</li>
           </ul>
         </p>
+        <div class="image_container">
+          <img class="image_our_board_3" src="assets/jimmy.jpeg" alt="Jimmy Ma" width="200px" height="auto">
+        </div>
         
         <h3>Directors</h3>
         <p>
@@ -183,6 +136,18 @@
             <li>A/Prof Theresa Jacques</li>
           </ul>
         </p>
+
+        <div class="image_container_2">
+          <img class="image_our_board_2" src="assets/daryl.jpeg" alt="Daryl Williams QC" width="200px" height="auto">
+          <img class="image_our_board_2" src="assets/helena.jpeg" alt="Helena Kyriazopoulos" width="200px" height="auto">
+          <img class="image_our_board_2" src="assets/david.jpeg" alt="Professor David Castle" width="200px" height="auto">
+          <img class="image_our_board_2" src="assets/kirilly.jpeg" alt="Kirilly Dutton" width="200px" height="auto">
+          <img class="image_our_board_2" src="assets/peter.jpeg" alt="Prof Peter Barlis" width="200px" height="auto">
+          <img class="image_our_board_2" src="assets/anne.jpeg" alt="Anne Donaldson" width="200px" height="auto">
+          <img class="image_our_board_2" src="assets/theresa.jpeg" alt="A/Prof Theresa Jacques" width="200px" height="auto">
+
+        </div>
+
     </section>
   </main>
    </body>
