@@ -213,7 +213,7 @@ footer{
 
  @media screen 
   and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
+  and (max-device-width: 2000px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
     /* Typography */
     .top_nav {
@@ -251,9 +251,9 @@ footer{
   }
 
   .image_container{
-    width: 80vw;
+    width: 50vw;
     height: auto;
-    display: block;
+    display: inline-block;
     justify-content: center;
     padding-left: 30%;
   }
@@ -263,6 +263,13 @@ footer{
     height: auto;
     display: block;
     justify-content: center;
+  }
+
+  .image_our_board{
+    width: 185px;
+    display: flex;
+    margin-right: 10%;
+    float: left;
   }
 
   .image_our_board_2{
